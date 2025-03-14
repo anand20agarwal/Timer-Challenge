@@ -10,7 +10,7 @@ const ResultModal = forwardRef(function ResultModal({targetTime, remainingTime, 
     open() {
       dialog.current.showModal();
     }
-  })); 
+  }));  
 
   return (
     <dialog ref={dialog} className="result-modal"> {/* Attach dialog ref here */}
